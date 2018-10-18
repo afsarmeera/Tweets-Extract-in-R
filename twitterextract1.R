@@ -11,11 +11,11 @@ for(package in packages){
 }
 
 
-api_key ="nwLe0MTW9c5s5QBzTgK3pWK37" # your api_key
-api_secret = "6Rr6jiOtWlAxXZ372tQjycnw2mL8GNbn9Aelmxn8qY2NdXYO9k"
+api_key ="xxxxxx" # your api_key
+api_secret = "xxxxxx"
  
-access_token="1914174908-b35IxU3Aen7YdM4eiB14CDabRXONpUtBYuCvHKp"
-access_token_secret ="8BQzzxqaIuAppPaNTcHqGJmxPLC6LTVHE7GFHWsgyS3vd"
+access_token="xxxxxx"
+access_token_secret ="xxxxxx"
 
 credential<-OAuthFactory$new(consumerKey=api_key,
                              consumerSecret=api_secret,
@@ -30,7 +30,7 @@ setup_twitter_oauth(api_key,api_secret,access_token,
 
 
 
-search.string <- "#trump"
+search.string <- "#tamilvelga"
 no.of.tweets <- 1000
 
 RohingyaTerrorReality.Tweets <- searchTwitter(search.string, n=no.of.tweets,lang="en",)
